@@ -4,8 +4,8 @@ function Barre() {
     return (
       <div >
         
-        <Navbar collapseOnSelect expand="lg"  variant="light" >
-  <Navbar >
+        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" >
+  <Navbar bg="light">
     <Navbar.Brand href="#home">
       <img
         src="/logo-default-group-en.svg"
