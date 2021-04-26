@@ -1,17 +1,102 @@
 .App {
+  color: #747474;
+ 
+
+}
+.sections {
+
+ 
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+::selection {
+  background: #00b39b;
+  color: #fff;
+  text-shadow: none;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-evenly;
+  grid-gap: 1rem;
+}
+.Navbar{
+  background-color: white !important;
+}
+.titre{
   text-align: center;
+  font-size: 2.125rem;
+  color: #00b39b;
+}
+.titre1 h3{
+  color: #00b39b;
+}
+
+.logo1{
+  text-align: center;
+}
+.filtre {
+  filter: grayscale(100%);
+}
+.filtre:hover {
+  filter: grayscale(0%);
+}
+svg {
+ color: #282c34;
+}
+svg:hover {
+  color: #00b39b !important;
+}
+.Button{
+  font-family: Roboto,Arial,sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.App.Navbar{
+  background-color: white !important;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+.cardstat h4{
+  color: #00b39b !important;
+
+
+}
+.stat{
+  background: #e5faf8;
+  background-image: linear-gradient(
+-45deg
+,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+padding: 15px 10rem 0 10rem;
+
+
+}
+
+.Card{
+  border-radius: 10px;
+  padding: 1em 1em 0;
+  overflow: hidden;
+  height: 345px;
+}
+
+.brand{
+  font-size: 1.625em;
+  margin: .25em 0 .35em;
+  padding-right: 1em;
+  font-weight: 300;
+  letter-spacing: -.3px;
+  color: #00b39b;
+}
+
 
 .App-header {
   background-color: #282c34;
