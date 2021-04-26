@@ -1,3 +1,4 @@
+import './Nav.css';
 import {Nav,Navbar,NavDropdown} from 'react-bootstrap';
 
 function Barre() {

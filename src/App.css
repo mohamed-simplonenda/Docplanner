@@ -20,9 +20,7 @@
   justify-content: space-evenly;
   grid-gap: 1rem;
 }
-.Navbar{
-  background-color: white !important;
-}
+
 .titre{
   text-align: center;
   font-size: 2.125rem;
@@ -42,10 +40,10 @@
   filter: grayscale(0%);
 }
 svg {
- color: #282c34;
+fill: #4e4f52;
 }
 svg:hover {
-  color: #00b39b !important;
+  fill: #00b39b !important;
 }
 .Button{
   font-family: Roboto,Arial,sans-serif;

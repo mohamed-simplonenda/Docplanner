@@ -5,9 +5,9 @@ import Cards from './component/card.js';
 import Cardtarvel from './component/travel.js';
 import Stat from './component/statistique.js';
 import Footer from './component/footer.js';
+import Cities from './component/cardTravel.js';
 import './component/logo.svg'
 import {Button} from 'react-bootstrap';
-
 
 
 
@@ -21,6 +21,7 @@ function App() {
     <div className="App">
 <div className="sections">
 <Barre />
+
 
 
 
@@ -120,7 +121,7 @@ function App() {
 
       </div>
  
-  <Cardtarvel/>
+      <Cities />
   <div className="text-center col-md-6 offset-md-3 pt-5 mt-5 ">
        <h3>Sounds interesting? Join us now!</h3>
         
